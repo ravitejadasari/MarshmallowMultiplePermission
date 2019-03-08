@@ -32,8 +32,6 @@ public class SplashScreen extends AppCompatActivity {
         if (checkAndRequestPermissions()) {
             // carry on the normal flow, as the case of  permissions  granted.
             new Handler().postDelayed(new Runnable() {
-
-
                 @Override
                 public void run() {
                     // This method will be executed once the timer is over
